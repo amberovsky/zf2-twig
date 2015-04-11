@@ -1,0 +1,41 @@
+{
+    "name": "amberovsky/zf2-twig",
+    "description": "Zend Framework 2 Module that provides a Twig rendering strategy and extensions to render actions or trigger events from your templates",
+    "type": "library",
+    "keywords": [
+        "twig",
+        "module",
+        "zf2"
+    ],
+    "homepage": "https://github.com/amberovsky/zf2-twig/",
+    "authors": [
+      {
+          "name": "Anton Zagorskiy",
+          "email": "amberovsky@gmail.com"
+      },
+      {
+          "name": "Kyle Spraggs",
+          "email": "theman@spiffyjr.me",
+          "homepage": "http://www.spiffyjr.me/"
+      },
+      {
+          "name": "Cosmin Harangus",
+          "email": "cosmin@zendexperts.com",
+          "homepage": "http://www.zendexperts.com/"
+      }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "twig/twig": "~1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZfcTwig\\": "src/"
+        }
+    },
+    "require-dev": {
+        "zendframework/zend-view": "*",
+        "zendframework/zend-servicemanager": "2.4.0",
+        "phpunit/phpunit": "4.6.*"
+    }
+}
