@@ -3,7 +3,6 @@
 namespace ZfcTwig\View;
 
 use Twig_Environment;
-use Twig_Error_Loader;
 use Zend\View\Resolver\ResolverInterface;
 use Zend\View\Renderer\RendererInterface as Renderer;
 

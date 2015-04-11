@@ -6,7 +6,6 @@ use Zend\ServiceManager\Config;
 use Zend\ServiceManager\ConfigInterface;
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
-use Zend\ServiceManager\ServiceManager;
 use Zend\View\Exception;
 
 class HelperPluginManagerFactory implements FactoryInterface

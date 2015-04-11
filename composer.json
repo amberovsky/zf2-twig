@@ -35,7 +35,10 @@
     },
     "require-dev": {
         "zendframework/zend-view": "*",
-        "zendframework/zend-servicemanager": "2.4.0",
+        "zendframework/zend-servicemanager": "~2.4.0",
+        "zendframework/zend-modulemanager": "~2.4.0",
+        "zendframework/zend-mvc": "~2.4.0",
+        "zendframework/zend-http": "~2.4.0",
         "phpunit/phpunit": "4.6.*"
     }
 }
