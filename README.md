@@ -1,17 +1,17 @@
-# ZfcTwig Module for Zend Framework 2 [![Master Branch Build Status](https://secure.travis-ci.org/ZF-Commons/ZfcTwig.png?branch=master)](http://travis-ci.org/ZF-Commons/ZfcTwig)
+# ZfcTwig Module for Zend Framework 2
 
 ZfcTwig is a module that integrates the [Twig](http://twig.sensiolabs.org) templating engine with
 [Zend Framework 2](http://framework.zend.com).
 
 ## Installation
 
- 1. Add `"zf-commons/zfc-twig": "dev-master"` to your `composer.json` file and run `php composer.phar update`.
+ 1. Add `"amberovsky/zf2-twig": "dev-master"` to your `composer.json` file and run `php composer.phar update`.
  2. Add `ZfcTwig` to your `config/application.config.php` file under the `modules` key.
 
 ## Configuration
 
 ZfcTwig has sane defaults out of the box but offers optional configuration via the `zfctwig` configuration key. For
-detailed information on all available options see the [module config file](https://github.com/ZF-Commons/ZfcTwig/tree/master/config/module.config.php)
+detailed information on all available options see the [module config file](https://github.com/amberovsky/zf2-twig/tree/master/config/module.config.php)
 class.
 
 ## Documentation
@@ -39,7 +39,7 @@ return array(
 ### Configuring Twig loaders
 
 By default, ZfcTwig uses a Twig_Loader_Chain so that loaders can be chained together. A convenient default is setup using
-a [filesystem loader](https://github.com/ZF-Commons/ZfcTwig/tree/master/Module.php#L36) with the path set to
+a [filesystem loader](https://github.com/amberovsky/zf2-twig/tree/master/Module.php#L36) with the path set to
 `module/Application/view` which should work out of the box for most instances. If you wish to add additional loaders
 to the chain you can register them by adding the service manager alias to the `loaders` configuration key.
 
@@ -68,7 +68,7 @@ public function getServiceConfiguration()
 
 ### Using ZF2 View Helpers
 
-Using ZF2 view helpers is supported through the [ZfcTwig\Twig\FallbackFunction](https://github.com/ZF-Commons/ZfcTwig/tree/master/src/ZfcTwig/FallbackFunction.php)
+Using ZF2 view helpers is supported through the [ZfcTwig\Twig\FallbackFunction](https://github.com/amberovsky/zf2-twig/tree/master/src/ZfcTwig/FallbackFunction.php)
 function.
 
 ```twig
@@ -87,7 +87,7 @@ function.
 
 # Examples
 
-Example .twig files for the skeleton application can be found in the [examples](https://github.com/ZF-Commons/ZfcTwig/tree/master/examples)
+Example .twig files for the skeleton application can be found in the [examples](https://github.com/amberovsky/zf2-twig/tree/master/examples)
 folder.
 
 ## Gotchas
