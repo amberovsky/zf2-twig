@@ -56,7 +56,7 @@ class EnvironmentFactory implements FactoryInterface
 
 		$env->setCache($options->getCache());
 
-		if ($options->getAutoReload() === false) {
+		if ($options->getAutoReload() === true) {
 			$env->enableAutoReload();
 		}
 
